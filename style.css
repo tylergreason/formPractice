@@ -2,4 +2,30 @@ body {
   margin: 0px;
   background-color: black;
 }
+
+form#contact {
+  background-color: red;
+  border: 2px solid black;
+  border-radius: 2px;
+  width: 50%;
+  min-height: 200px;
+  padding: 10px;
+  margin: auto;
+  vertical-align: middle;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
+form#contact label {
+  font-size: 1.2rem;
+}
+
+form#contact .title {
+  font-size: 2rem;
+}
 /*# sourceMappingURL=style.css.map */
