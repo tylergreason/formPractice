@@ -1,17 +1,21 @@
 body {
   margin: 0px;
   background-color: black;
+  height: 100vh;
 }
 
-form#contact {
+#contact__container {
   background-color: red;
   border: 2px solid black;
-  border-radius: 2px;
+  border-radius: 10px;
   width: 50%;
   min-height: 200px;
   padding: 10px;
   margin: auto;
   vertical-align: middle;
+}
+
+#contact__container form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -19,13 +23,32 @@ form#contact {
   -webkit-box-direction: normal;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-form#contact label {
+#contact__container span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-width: 40%;
+  margin: 10px;
+}
+
+#contact__container label {
   font-size: 1.2rem;
 }
 
-form#contact .title {
+#contact__container .title {
   font-size: 2rem;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
